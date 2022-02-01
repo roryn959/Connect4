@@ -1,0 +1,55 @@
+* {
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 75vh;
+}
+
+td {
+    background-color: darkblue;
+    height: 65px;
+    width: 65px;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+}
+
+.empty-square {
+    width: 20px;
+    height: 20px;
+    padding: 18px;
+    background-color: white;
+    opacity: 100;
+    border: 1px white;
+    border-radius: 50px;
+    transition-duration: 1s;
+}
+
+.empty-square:hover {
+    background-color: grey;
+}
+
+.red-square {
+    width: 20px;
+    height: 20px;
+    padding: 18px;
+    background-color: red;
+    border: 1px white;
+    border-radius: 50px;
+}
+
+.yellow-square {
+    width: 20px;
+    height: 20px;
+    padding: 18px;
+    background-color: yellow;
+    border: 1px white;
+    border-radius: 50px;
+}
